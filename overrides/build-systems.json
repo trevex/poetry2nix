@@ -316,7 +316,7 @@
     "setuptools"
   ],
   "aiohttp-remotes": [
-    "flitBuildHook",
+    "flit-core",
     "setuptools"
   ],
   "aiohttp-retry": [
@@ -348,7 +348,7 @@
     "setuptools"
   ],
   "aiojobs": [
-    "flitBuildHook",
+    "flit-core",
     "setuptools"
   ],
   "aiokafka": [
@@ -428,7 +428,6 @@
   ],
   "aioprocessing": [
     "flit-core",
-    "flitBuildHook",
     "setuptools"
   ],
   "aiopulse": [
@@ -476,7 +475,7 @@
     "setuptools"
   ],
   "aiorun": [
-    "flitBuildHook",
+    "flit-core",
     "setuptools"
   ],
   "aiosenseme": [
@@ -925,7 +924,7 @@
   ],
   "argon2-cffi": [
     {
-      "buildSystem": "flitBuildHook",
+      "buildSystem": "flit-core",
       "until": "23.1.0"
     },
     {
@@ -1168,7 +1167,7 @@
     "setuptools"
   ],
   "asyncstdlib": [
-    "flitBuildHook",
+    "flit-core",
     "setuptools"
   ],
   "asynctest": [
@@ -2042,7 +2041,7 @@
     "setuptools"
   ],
   "bash-kernel": [
-    "flitBuildHook",
+    "flit-core",
     "setuptools"
   ],
   "bashlex": [
@@ -2533,8 +2532,7 @@
     "setuptools"
   ],
   "build": [
-    "flit-core",
-    "setuptools"
+    "flit-core"
   ],
   "buildbot": [
     "setuptools"
@@ -3339,7 +3337,6 @@
   ],
   "confuse": [
     "flit-core",
-    "flitBuildHook",
     "setuptools"
   ],
   "connect-box": [
@@ -4936,7 +4933,6 @@
   ],
   "ecs-logging": [
     "flit-core",
-    "flitBuildHook",
     "setuptools"
   ],
   "ed25519": [
@@ -5240,7 +5236,7 @@
   "exceptiongroup": [
     "flit-core",
     "flit-scm",
-    "flitBuildHook",
+    "flit-core",
     "setuptools"
   ],
   "exchangelib": [
@@ -5373,7 +5369,7 @@
     "setuptools"
   ],
   "fastapi": [
-    "flitBuildHook",
+    "flit-core",
     "hatchling",
     "setuptools"
   ],
@@ -5913,13 +5909,6 @@
     "poetry-core",
     "setuptools"
   ],
-  "flit": [
-    "flit-core",
-    "setuptools"
-  ],
-  "flit-core": [
-    "setuptools"
-  ],
   "flit-scm": [
     "flit-core",
     "setuptools-scm"
@@ -5997,7 +5986,7 @@
     "setuptools"
   ],
   "formbox": [
-    "flitBuildHook",
+    "flit-core",
     "setuptools"
   ],
   "formencode": [
@@ -6104,7 +6093,7 @@
     "setuptools"
   ],
   "furo": [
-    "flitBuildHook",
+    "flit-core",
     "setuptools"
   ],
   "fuse": [
@@ -6348,7 +6337,7 @@
     "setuptools"
   ],
   "gidgethub": [
-    "flitBuildHook",
+    "flit-core",
     "setuptools"
   ],
   "gigalixir": [
@@ -7667,8 +7656,7 @@
     "setuptools"
   ],
   "installer": [
-    "flit-core",
-    "setuptools"
+    "flit-core"
   ],
   "insteon-frontend-home-assistant": [
     "setuptools"
@@ -7738,14 +7726,14 @@
     "setuptools"
   ],
   "ipfshttpclient": [
-    "flitBuildHook",
+    "flit-core",
     "setuptools"
   ],
   "iptools": [
     "setuptools"
   ],
   "ipwhl": [
-    "flitBuildHook",
+    "flit-core",
     "setuptools"
   ],
   "ipwhois": [
@@ -8198,7 +8186,6 @@
   ],
   "jupyter-book": [
     "flit-core",
-    "flitBuildHook",
     "setuptools"
   ],
   "jupyter-c-kernel": [
@@ -8894,7 +8881,7 @@
     "setuptools"
   ],
   "loca": [
-    "flitBuildHook",
+    "flit-core",
     "setuptools"
   ],
   "localimport": [
@@ -9311,7 +9298,6 @@
   ],
   "mediafile": [
     "flit-core",
-    "flitBuildHook",
     "setuptools"
   ],
   "mediapy": [
@@ -9681,7 +9667,6 @@
   ],
   "more-itertools": [
     "flit-core",
-    "flitBuildHook",
     "setuptools"
   ],
   "more-properties": [
@@ -9983,12 +9968,10 @@
   ],
   "myst-nb": [
     "flit-core",
-    "flitBuildHook",
     "setuptools"
   ],
   "myst-parser": [
     "flit-core",
-    "flitBuildHook",
     "setuptools"
   ],
   "nad-receiver": [
@@ -10293,7 +10276,7 @@
     "setuptools"
   ],
   "nkdfu": [
-    "flitBuildHook",
+    "flit-core",
     "setuptools"
   ],
   "nltk": [
@@ -11073,8 +11056,7 @@
     "setuptools"
   ],
   "packaging": [
-    "flit-core",
-    "setuptools"
+    "flit-core"
   ],
   "packbits": [
     "setuptools"
@@ -11435,7 +11417,6 @@
   ],
   "pep440": [
     "flit-core",
-    "flitBuildHook",
     "setuptools"
   ],
   "pep440-version-utils": [
@@ -11477,7 +11458,6 @@
   ],
   "pex": [
     "flit-core",
-    "flitBuildHook",
     "setuptools"
   ],
   "pexif": [
@@ -14381,15 +14361,15 @@
     "setuptools"
   ],
   "pytest-celery": [
-    "flitBuildHook",
+    "flit-core",
     "setuptools"
   ],
   "pytest-check": [
-    "flitBuildHook",
+    "flit-core",
     "setuptools"
   ],
   "pytest-cid": [
-    "flitBuildHook",
+    "flit-core",
     "setuptools"
   ],
   "pytest-clarity": [
@@ -14547,7 +14527,6 @@
   ],
   "pytest-param-files": [
     "flit-core",
-    "flitBuildHook",
     "setuptools"
   ],
   "pytest-profiling": [
@@ -14569,7 +14548,6 @@
   ],
   "pytest-raisin": [
     "flit-core",
-    "flitBuildHook",
     "setuptools"
   ],
   "pytest-random-order": [
@@ -16270,7 +16248,7 @@
     "setuptools"
   ],
   "rsskey": [
-    "flitBuildHook",
+    "flit-core",
     "setuptools"
   ],
   "rst2ansi": [
@@ -17175,7 +17153,7 @@
     "setuptools"
   ],
   "solo-python": [
-    "flitBuildHook",
+    "flit-core",
     "setuptools"
   ],
   "somajo": [
@@ -17309,19 +17287,17 @@
   ],
   "sphinx-design": [
     "flit-core",
-    "flitBuildHook",
     "setuptools"
   ],
   "sphinx-external-toc": [
     "flit-core",
-    "flitBuildHook",
     "setuptools"
   ],
   "sphinx-fortran": [
     "setuptools"
   ],
   "sphinx-inline-tabs": [
-    "flitBuildHook",
+    "flit-core",
     "setuptools"
   ],
   "sphinx-jinja": [
@@ -17342,7 +17318,6 @@
   ],
   "sphinx-mdinclude": [
     "flit-core",
-    "flitBuildHook",
     "setuptools"
   ],
   "sphinx-multitoc-numbering": [
@@ -17353,7 +17328,6 @@
   ],
   "sphinx-pytest": [
     "flit-core",
-    "flitBuildHook",
     "setuptools"
   ],
   "sphinx-rtd-theme": [
@@ -17751,7 +17725,7 @@
     "setuptools"
   ],
   "structlog": [
-    "flitBuildHook",
+    "flit-core",
     "hatch-fancy-pypi-readme",
     "hatch-vcs",
     "hatchling",
@@ -18293,7 +18267,7 @@
     "setuptools"
   ],
   "threadpoolctl": [
-    "flitBuildHook",
+    "flit-core",
     "setuptools"
   ],
   "threat9-test-bed": [
@@ -18367,7 +18341,6 @@
   ],
   "tinycss2": [
     "flit-core",
-    "flitBuildHook",
     "setuptools"
   ],
   "tinydb": [
@@ -18449,8 +18422,7 @@
     "poetry"
   ],
   "tomli": [
-    "flit-core",
-    "setuptools"
+    "flit-core"
   ],
   "tomli-w": [
     "flit-core",
@@ -18684,7 +18656,7 @@
     "setuptools"
   ],
   "turnt": [
-    "flitBuildHook",
+    "flit-core",
     "setuptools"
   ],
   "tusker": [
@@ -19717,7 +19689,14 @@
     "setuptools"
   ],
   "wheel": [
-    "setuptools"
+    {
+      "buildSystem": "setuptools",
+      "until": "0.40.0"
+    },
+    {
+      "buildSystem": "flit-core",
+      "from": "0.40.0"
+    }
   ],
   "wheel-filename": [
     "setuptools"
@@ -20211,7 +20190,6 @@
   ],
   "zeversolarlocal": [
     "flit-core",
-    "flitBuildHook",
     "setuptools"
   ],
   "zfec": [
